@@ -6,8 +6,8 @@ import re
 import time
 
 # === Constants ===
-EXPIRY_DATE_DISPLAY = "31-07-2025"
-EXPIRY_DATE_API = "2025-07-31"
+EXPIRY_DATE_DISPLAY = "30-09-2025"
+EXPIRY_DATE_API = "2025-09-30"
 BASE_URL = "https://www.nseindia.com"
 SPOT_SELECTOR = ("body > main:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(17) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(2)")
 
@@ -147,3 +147,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
